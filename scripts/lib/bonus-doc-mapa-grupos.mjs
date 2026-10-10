@@ -12,7 +12,7 @@ export function bonusMapaGrupos() {
     titulo: 'El mapa de los grupos',
     kicker: `Bonus · ${TOTAL_GRUPOS} grupos farmacológicos por sufijo`,
     bajada:
-      'Qué termina en «-olol», en «-pril», en «-sartán»: por dónde actúa cada grupo, para qué se indica y el efecto adverso que se toma siempre.',
+      'Qué termina en «-olol», en «-pril», en «-sartán»: por dónde actúa cada grupo, para qué se indica y el efecto adverso que siempre se pregunta.',
     pie: `Bonus que viene con ${APP_NAME}`,
     secciones: [
       {
@@ -24,7 +24,7 @@ export function bonusMapaGrupos() {
           },
           {
             t: 'p',
-            x: 'Tapa las últimas tres columnas, mira sólo el sufijo y los ejemplos, y contesta de memoria: mecanismo, para qué se usa, y el efecto adverso que se toma siempre. Recién ahí destapa y comprueba.'
+            x: 'Tapa las últimas tres columnas, mira sólo el sufijo y los ejemplos, y contesta de memoria: mecanismo, para qué se usa, y el efecto adverso que siempre se pregunta. Recién ahí destapa y comprueba.'
           },
           {
             t: 'aviso',
@@ -57,7 +57,7 @@ export function bonusMapaGrupos() {
             titulo: 'El mapa no reemplaza el estudio',
             x: [
               'Este PDF te ubica: te dice a qué familia pertenece un fármaco que no estudiaste todavía, y con eso alcanza para no llegar en blanco.',
-              'Lo que **no** hace es tomártelo. Eso lo hace la app: varios de estos grupos ya están en las unidades cargadas, y el resto lo vas viendo a medida que cursas, con la repetición espaciada decidiendo cuándo te toca repasar cada uno.'
+              'Lo que **no** hace es evaluarte. Eso lo hace la app: varios de estos grupos ya están en las unidades cargadas, y el resto lo vas viendo a medida que cursas, con la repetición espaciada decidiendo cuándo te toca repasar cada uno.'
             ]
           }
         ]
